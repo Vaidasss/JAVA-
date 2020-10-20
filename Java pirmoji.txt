@@ -1,0 +1,191 @@
+=============== Pirma užduotis ==============
+
+public class HelloWorld{
+
+     public static void main(String []args){
+	    String name = "Jane Doe";
+        System.out.println(name);
+     }
+}
+
+============== antra užduotis ===============
+
+
+public class HelloWorld{
+
+     public static void main(String []args){
+	    String name1 = "Hello World!";
+		String name2 = "(And all the people of the world)";
+        System.out.println(name1);
+        System.out.println(name2);
+     }
+}
+============== trečia užduotis =============
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+	    System.out.println("     *     ");
+        System.out.println("    ***    ");
+        System.out.println("   *****   ");
+        System.out.println("  *******  ");
+        System.out.println(" ********* ");
+        System.out.println("     *     ");
+     }
+}
+============ ketvirta užduotis===========
+nereikia
+============ penkta užduotis ============
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int sec = 60;
+         int min = 60;
+         int hour = 24;
+         int days = 365;
+         
+         int x = sec * min * hour * days;
+         
+         
+         
+        System.out.println("There are " + x + " seconds in the year");
+     }
+}
+
+=========== šešta užduotis ==============
+
+
+public class HelloWorld{
+
+     public static void main(String []args){
+      int a = 5;
+      int b = 7;
+      int ats = a + b; 
+        
+       
+        System.out.println(a + " + " + b + " = " + ats);
+        
+      
+      }
+}
+
+=============== septinta užduotis =================
+
+public class HelloWorld{
+
+     public static void main(String []args){
+      int a = 5;
+      int b = 7;
+      int mul = a * b; 
+        
+       
+        System.out.println(a + " * " + b + " = " + mul);
+        
+      
+    
+       
+     }
+}
+
+
+============== atunta užduotis ===============
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int a = 6;
+         int b = 2; 
+         int sum = a + b; 
+         System.out.println("type a number: " + a);
+         System.out.println("type another number: " + b);
+         System.out.println("Sum of the numbers: " + sum);
+     }
+}
+
+============= devinta užduotis =================
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int a = 3;
+         int b = 2; 
+         double sum = a/ (double) b;
+         System.out.println("type a number: " + a);
+         System.out.println("type a number: " + b);
+         System.out.println("Devision : " + a + " / " + b + " = " + sum);
+		 
+		                        
+		 
+     }
+}
+
+============== dešimta užduotis ====================
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int a = 2;
+         double pi = Math.PI;
+         int radius = 20;
+         double mul = a * pi * radius;
+         System.out.print("type the radius: " + 20);
+         System.out.print( "Circumference of the circle: " + mul );
+         
+         
+     }
+}
+
+// nesuprantu kodėl  atsakymą gaunu vienoje eilutėje - 
+
+//Type the radius:20Circumference of the circle:125.66370614359172
+
+=================== vienuolikta užduotis =================
+
+
+
+import java.util.Scanner;
+	public class Uzduotis_11 {
+
+		public static void main(String[] args) {
+			
+	    Scanner reader = new Scanner(System.in);
+				
+		
+		System.out.println("Type a number:");
+		int typedNumber1 = reader.nextInt();
+		
+		System.out.println("Type another number:");
+		int typedNumber2 = reader.nextInt();
+		
+		int maxResult = Math.max(typedNumber1, typedNumber2);
+		
+		
+		System.out.println("The bigger number of the two numbers given was:" + maxResult );
+		 reader.close();
+		
+	}
+
+}
+
+================ dvylikta užduotis========================
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+         String name1 = "Matti";
+         int age1 = 14;
+         String name2 = "Arto";
+         int age2 = 12;
+         int age3 = age1 + age2;
+         
+         System.out.println( "Type your name: " + name1 );
+         System.out.println( "Type your age: " + age1 );
+         System.out.println( "Type your name: " + name2 );
+         System.out.println( "Type your age: " + age2 );
+         System.out.println( "Matti and Arto are " + age3 + " years old in total" );
+     }
+}
+
+
